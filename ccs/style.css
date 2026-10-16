@@ -1,0 +1,30 @@
+
+
+
+@layer theme, base, components, utilities;
+
+/* Los selectores o estilos de etiqueta (tag) los añadimos en la "base" */
+
+/* ID >> CLASS >> TAG >> * */
+
+
+@layer base {
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: red;
+    }
+
+}
+
+/* Los selectores o estilos de clase (class) los añadimos en la "components" */
+
+@layer components {
+
+    .botoncito { 
+
+        padding: 6rem;
+        border-color: black;
+        border-width: 1px;
+    }
+
+}
